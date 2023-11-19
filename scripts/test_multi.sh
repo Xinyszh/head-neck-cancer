@@ -1,0 +1,2 @@
+python test_multimodal.py --modal Multi --T2_model_tag ResNet18 --DWI_model_tag ResNet18 --DCE_model_tag ResNet34 \
+        --bs 1 --seed 1 --device 1 --fuse_tag Concate --exp_name Multimodal-featfuse-2_redo --save_csv --split test
